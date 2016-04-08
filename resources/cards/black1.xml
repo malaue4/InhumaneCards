@@ -1,0 +1,622 @@
+<?xml version="1.0"?>
+<!DOCTYPE blackdeck [
+		<!ELEMENT blackdeck (card)*>
+		<!ATTLIST blackdeck
+				name CDATA #REQUIRED>
+		<!ELEMENT card (text|draw|pick)*>
+		<!ELEMENT text (#PCDATA)>
+		<!ELEMENT draw (#PCDATA)>
+		<!ELEMENT pick (#PCDATA)>
+		]>
+<blackdeck name="Main deck">
+	<card>
+		<text>______ + ______ = ______.</text>
+		<draw>2</draw>
+		<pick>3</pick>
+	</card>
+	<card>
+		<text>______ is a slippery slope that leads to ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>______: good to the last drop.</text>
+		
+	</card>
+	<card>
+		<text>______: kid-tested, mother-approved.</text>
+		
+	</card>
+	<card>
+		<text>______. Betcha can't have just one!</text>
+		
+	</card>
+	<card>
+		<text>______. High five, bro.</text>
+		
+	</card>
+	<card>
+		<text>______. It's a trap!</text>
+		
+	</card>
+	<card>
+		<text>A romantic, candlelit dinner would be incomplete without ______.</text>
+		
+	</card>
+	<card>
+		<text>After the earthquake, Sean Penn brought ______ to the people of Haiti.</text>
+		
+	</card>
+	<card>
+		<text>Alternative medicine is now embracing the curative powers of ______.</text>
+		
+	</card>
+	<card>
+		<text>And the Academy Award for ______ goes to ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>But before I kill you, Mr. Bond, I must show you ______.</text>
+		
+	</card>
+	<card>
+		<text>Coming to Broadway this season, ______: The Musical.</text>
+		
+	</card>
+	<card>
+		<text>Daddy, why is mommy crying?</text>
+		
+	</card>
+	<card>
+		<text>Dear Abby,
+  I'm having some trouble with ______ and would like your advice.</text>
+	</card>
+	<card>
+		<text>During sex, I like to think about ______.</text>
+		
+	</card>
+	<card>
+		<text>For my next trick, I will pull ______ out of ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>Here is the church Here is the steeple Open the doors And there is ______.</text>
+		
+	</card>
+	<card>
+		<text>How am I maintaining my relationship status?</text>
+		
+	</card>
+	<card>
+		<text>How did I lose my virginity?</text>
+		
+	</card>
+	<card>
+		<text>I drink to forget ______.</text>
+		
+	</card>
+	<card>
+		<text>I got 99 problems but ______ ain't one.</text>
+		
+	</card>
+	<card>
+		<text>I never truly understood ______ until I encountered ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>I'm sorry, Professor, but I couldn't complete my homework because of ______.</text>
+		
+	</card>
+	<card>
+		<text>In a world ravaged by ______, our only solace is ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>In L.A. County Jail, word is you can trade 200 cigarettes for ______.</text>
+		
+	</card>
+	<card>
+		<text>In M. Night Shyamalan's new movie, Bruce Willis discovers that ______ had really been ______ all along.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>In the new Disney Channel Original Movie, Hannah Montana struggles with ______ for the first time.</text>
+		
+	</card>
+	<card>
+		<text>Instead of coal, Santa now gives the bad children ______.</text>
+		
+	</card>
+	<card>
+		<text>It’s a pity that kids these days are all getting involved with ______.</text>
+		
+	</card>
+	<card>
+		<text>Life for American Indians was forever changed when the White Man introduced them to ______.</text>
+		
+	</card>
+	<card>
+		<text>Lifetime® presents "______: the Story of ______."</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>Make a haiku.</text>
+		<draw>2</draw>
+		<pick>3</pick>
+	</card>
+	<card>
+		<text>Maybe she's born with it. Maybe it's ______.</text>
+		
+	</card>
+	<card>
+		<text>MTV's new reality show features eight washed-up celebrities living with ______.</text>
+		
+	</card>
+	<card>
+		<text>Next from J.K. Rowling: Harry Potter and the Chamber of ______.</text>
+		
+	</card>
+	<card>
+		<text>Next on ESPN2: The World Series of ______.</text>
+		
+	</card>
+	<card>
+		<text>Step 1: ______. Step 2: ______. Step 3: Profit.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>That's right, I killed ______. How, you ask? ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>The class field trip was completely ruined by ______.</text>
+		
+	</card>
+	<card>
+		<text>This is the way the world ends\nThis is the way the world ends\nNot with a bang but with ______.</text>
+		
+	</card>
+	<card>
+		<text>TSA guidelines now prohibit ______ on airplanes.</text>
+		
+	</card>
+	<card>
+		<text>War! What is it good for?</text>
+		
+	</card>
+	<card>
+		<text>What are my parents hiding from me?</text>
+		
+	</card>
+	<card>
+		<text>What did I bring back from Mexico?</text>
+		
+	</card>
+	<card>
+		<text>What did the US airdrop to the children of Afghanistan?</text>
+		
+	</card>
+	<card>
+		<text>What did Vin Diesel eat for dinner?</text>
+		
+	</card>
+	<card>
+		<text>What ended my last relationship?</text>
+		
+	</card>
+	<card>
+		<text>What gives me uncontrollable gas?</text>
+		
+	</card>
+	<card>
+		<text>What helps Obama unwind?</text>
+		
+	</card>
+	<card>
+		<text>What is Batman's guilty pleasure?</text>
+		
+	</card>
+	<card>
+		<text>What never fails to liven up the party?</text>
+		
+	</card>
+	<card>
+		<text>What will always get you laid?</text>
+		
+	</card>
+	<card>
+		<text>What would grandma find disturbing, yet oddly charming?</text>
+		
+	</card>
+	<card>
+		<text>What's a girl's best friend?</text>
+		
+	</card>
+	<card>
+		<text>What's my secret power?</text>
+		
+	</card>
+	<card>
+		<text>What's Teach for America using to inspire inner city students to succeed?</text>
+		
+	</card>
+	<card>
+		<text>What's that smell?</text>
+		
+	</card>
+	<card>
+		<text>What's that sound?</text>
+		
+	</card>
+	<card>
+		<text>What's the next Happy Meal® toy?</text>
+		
+	</card>
+	<card>
+		<text>What's there a ton of in heaven?</text>
+		
+	</card>
+	<card>
+		<text>When I am a billionare, I shall erect a 50-foot statue to commemorate ______.</text>
+		
+	</card>
+	<card>
+		<text>When I am President of the United States, I will create the Department of ______.</text>
+		
+	</card>
+	<card>
+		<text>When I was tripping on acid, ______ turned into ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>When Pharaoh remained unmoved, Moses called down a Plague of ______.</text>
+		
+	</card>
+	<card>
+		<text>While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on ______.</text>
+		
+	</card>
+	<card>
+		<text>White people like ______.</text>
+		
+	</card>
+	<card>
+		<text>Why am I sticky?</text>
+		
+	</card>
+	<card>
+		<text>Why can't I sleep at night?</text>
+		
+	</card>
+	<card>
+		<text>Why do I hurt all over?</text>
+		
+	</card>
+	<card>
+		<text>______. That's how I want to die.</text>
+		
+	</card>
+	<card>
+		<text>BILLY MAYS HERE FOR ______.</text>
+		
+	</card>
+	<card>
+		<text>During his childhood, Salvador Dali produced hundreds of paintings of ______.</text>
+		
+	</card>
+	<card>
+		<text>I do not know with what weapons World War III will be fought, but World War IV will be fought with ______.</text>
+		
+	</card>
+	<card>
+		<text>In 1,000 years, when paper money is a distant memory, how will we pay for goods and services?</text>
+		
+	</card>
+	<card>
+		<text>In Michael Jackson's final moments, he thought about ______.</text>
+		
+	</card>
+	<card>
+		<text>Major League Baseball has banned ______ for giving players an unfair advantage.</text>
+		
+	</card>
+	<card>
+		<text>Rumor has it that Vladimir Putin's favorite dish is ______ stuffed with ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>Studies show that lab rats navigate mazes 50% faster after being exposed to ______.</text>
+		
+	</card>
+	<card>
+		<text>The Smithsonian Museum of Natural History has just opened an interactive exhibit on ______.</text>
+		
+	</card>
+	<card>
+		<text>What am I giving up for Lent?</text>
+		
+	</card>
+	<card>
+		<text>What do old people smell like?</text>
+		
+	</card>
+	<card>
+		<text>What does Dick Cheney prefer?</text>
+		
+	</card>
+	<card>
+		<text>What don't you want to find in your Chinese food?</text>
+		
+	</card>
+	<card>
+		<text>What gets better with age?</text>
+		
+	</card>
+	<card>
+		<text>What will I bring back in time to convince people that I am a powerful wizard?</text>
+		
+	</card>
+	<card>
+		<text>What's my anti-drug?</text>
+		
+	</card>
+	<card>
+		<text>What's the most emo?</text>
+		
+	</card>
+	<card>
+		<text>What's the new fad diet?</text>
+		
+	</card>
+	<card>
+		<text>What's the next superhero/sidekick duo?</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>______. That was so metal.</text>
+		
+	</card>
+	<card>
+		<text>A recent laboratory study shows that undergraduates have 50% less sex after being exposed to ______.</text>
+		
+	</card>
+	<card>
+		<text>After four platinum albums and three Grammys, it's time to get back to my roots, to what inspired me to make music in the first place: ______.</text>
+		
+	</card>
+	<card>
+		<text>Fun tip! When your man asks you to go down on him, try surprising him with ______ instead.</text>
+		
+	</card>
+	<card>
+		<text>Hey Reddit! I'm ______. Ask me anything.</text>
+		
+	</card>
+	<card>
+		<text>I get by with a little help from ______.</text>
+		
+	</card>
+	<card>
+		<text>I'm going on a cleanse this week. Nothing but kale juice and ______.</text>
+		
+	</card>
+	<card>
+		<text>Introducing the amazing superhero/sidekick duo! It's ______ and ______!</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>Introducing X-Treme Baseball! It's like baseball, but with ______!</text>
+		
+	</card>
+	<card>
+		<text>Just saw this upsetting video! Please retweet!! #stop______</text>
+		
+	</card>
+	<card>
+		<text>Kids, I don't need drugs to get high. I'm high on ______.</text>
+		
+	</card>
+	<card>
+		<text>Now at the Smithsonian: an interactive exhibit on ______.</text>
+		
+	</card>
+	<card>
+		<text>The new Chevy Tahoe. With the power and space to take ______ everywhere you go.</text>
+		
+	</card>
+	<card>
+		<text>They said we were crazy. They said we couldn't put ______ inside of ______. They were wrong.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>Today on Maury: "Help! My son is ______!"</text>
+		
+	</card>
+	<card>
+		<text>Uh, hey guys, I know this was my idea, but I'm having serious doubts about ______.</text>
+		
+	</card>
+	<card>
+		<text>Well if you'll excuse me, gentlemen, I have a date with ______.</text>
+		
+	</card>
+	<card>
+		<text>What don't you want to find in your Kung Pao chicken?</text>
+		
+	</card>
+	<card>
+		<text>What is George W. Bush thinking about right now?</text>
+		
+	</card>
+	<card>
+		<text>What made my first kiss so awkward?</text>
+		
+	</card>
+	<card>
+		<text>________: Once you pop, the fun don't stop!</text>
+		
+	</card>
+	<card>
+		<text>________? Jim'll fix it!</text>
+		
+	</card>
+	<card>
+		<text>________. That's why mums go to Iceland.</text>
+		
+	</card>
+	<card>
+		<text>______? There's an app for that.</text>
+		
+	</card>
+	<card>
+		<text>After Hurricane Katrina, Sean Penn brought ______ to all the people of New Orleans.</text>
+		
+	</card>
+	<card>
+		<text>Airport security guidelines now prohibit ________ on airplanes.</text>
+		
+	</card>
+	<card>
+		<text>And the BAFTA for ________ goes to ________. </text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>Anthropologists have recently discovered a primitive tribe that worships ______.</text>
+		
+	</card>
+	<card>
+		<text>Channel 4 presents ________, the story of ________.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>Channel 5's new reality show features eight washed-up celebrities living with ________.</text>
+		
+	</card>
+	<card>
+		<text>Coming to the West End this year, ________: The Musical.</text>
+		
+	</card>
+	<card>
+		<text>Daddy, why is mummy crying?</text>
+		
+	</card>
+	<card>
+		<text>Dear Agony Aunt, I'm having some trouble with ________ and I need your advice.</text>
+		
+	</card>
+	<card>
+		<text>Due to a PR fiasco, Walmart no longer offers ______.</text>
+		
+	</card>
+	<card>
+		<text>During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of ______.</text>
+		
+	</card>
+	<card>
+		<text>I wish I hadn't lost the instruction manual for ______.</text>
+		
+	</card>
+	<card>
+		<text>I'm sorry,Sir, but I couldn't complete my homework because of ________.</text>
+		
+	</card>
+	<card>
+		<text>In 1,000 years, when paper money is but a distant memory, ______ will be our currency.</text>
+		
+	</card>
+	<card>
+		<text>In an attempt to reach a wider audience, the Smithsonian Museum of Natural History has opened an interactive exhibit on ______.</text>
+		
+	</card>
+	<card>
+		<text>In her latest feature-length film, Tracy Beaker struggles with ________ for the first time.</text>
+		
+	</card>
+	<card>
+		<text>In his new summer comedy, Rob Schneider is ______ trapped in the body of ______.</text>
+		<pick>2</pick>
+	</card>
+	<card>
+		<text>In Wormwood Scrubs, word is you can trade 200 cigarettes for ________.</text>
+		
+	</card>
+	<card>
+		<text>Instead of coal, Father Christmas now gives bad children ________.</text>
+		
+	</card>
+	<card>
+		<text>Life was difficult for cavemen before ______.</text>
+		
+	</card>
+	<card>
+		<text>Next on Sky Sports: The World Championship of ________.</text>
+		
+	</card>
+	<card>
+		<text>Nobody expects the Spanish Inquisition. Our chief weapons are fear, surprise, and ________.</text>
+		
+	</card>
+	<card>
+		<text>O Canada, we stand on guard for ______.</text>
+		
+	</card>
+	<card>
+		<text>Sorry everyone, I just ______.</text>
+		
+	</card>
+	<card>
+		<text>The Natural History Museum has just opened an interactive exhibit on ________.</text>
+		
+	</card>
+	<card>
+		<text>The school field trip was completely ruined by ________.</text>
+		
+	</card>
+	<card>
+		<text>The TFL apologizes for the delay in train service due to ________.</text>
+		
+	</card>
+	<card>
+		<text>The theme for next year's Eurovision Song Contest is "We are ________."</text>
+		
+	</card>
+	<card>
+		<text>The U.S. has begun airdropping ______ to the children of Afghanistan.</text>
+		
+	</card>
+	<card>
+		<text>Today on The Jeremy Kyle Show: "Help! My son is ________!"</text>
+		
+	</card>
+	<card>
+		<text>What are school administrators using to curb rampant teenage pregnancy?</text>
+		
+	</card>
+	<card>
+		<text>What did I bring back from Amsterdam?</text>
+		
+	</card>
+	<card>
+		<text>What kept Margaret Thatcher busy in her waning years?</text>
+		
+	</card>
+	<card>
+		<text>What's the crustiest?</text>
+		
+	</card>
+	<card>
+		<text>What's the next superhero?</text>
+		
+	</card>
+	<card>
+		<text>When I am Prime Minister of the United Kingdom, I will create the Ministry of ________.</text>
+		
+	</card>
+	<card>
+		<text>When I'm in prison, I'll have ______ smuggled in.</text>
+		
+	</card>
+	<card>
+		<text>Who stole the cookies from the cookie jar?</text>
+		
+	</card>
+</blackdeck>
