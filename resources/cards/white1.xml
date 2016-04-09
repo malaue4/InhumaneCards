@@ -1,2443 +1,2443 @@
 <?xml version="1.0"?>
 <!DOCTYPE whitedeck [
-		<!ELEMENT whitedeck (card)*>
+		<!ELEMENT whitedeck (cardData)*>
 		<!ATTLIST whitedeck
 				name CDATA #REQUIRED>
-		<!ELEMENT card (text)*>
+		<!ELEMENT cardData (text)*>
 		<!ELEMENT text (#PCDATA)>
 		]>
 <whitedeck name="Main deck">
-	<card>
+	<cardData>
 		<text>50,000 volts straight to the nipples.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>72 virgins.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>8 oz. of sweet Mexican black-tar heroin.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A bag of magic beans.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A balanced breakfast.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>(I am doing Kegels right now.)</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A bitch slap.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A bleached asshole.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A Bop It™.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A brain tumor.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A cooler full of organs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A defective condom.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A disappointing birthday party.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A falcon with a cap on its head.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A fetus.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>2 Girls 1 Cup.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A gassy antelope.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A gentle caress of the inner thigh.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A good sniff.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A homoerotic volleyball montage.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A lifetime of sadness.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A live studio audience.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>400 years of colonial atrocities.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A mating display.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A micropenis.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A micropig wearing a tiny raincoat and booties.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A middle-aged man on roller skates.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A mime having a stroke.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A monkey smoking a cigar.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A mopey zoo lion.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A murder most foul.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A pyramid of severed heads.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A really cool hat.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A robust mongoloid.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A sad handjob.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A salty surprise.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A sassy black woman.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A ball of earwax, semen, and toenail clippings.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A sea of troubles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A snapping turtle biting the tip of your penis.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A stray pube.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A subscription to Men's Fitness.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A Super Soaker™ full of cat pee.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A thermonuclear detonation.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A time travel paradox.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A tiny horse.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A tribe of warrior women.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A windmill full of corpses.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A zesty breakfast burrito.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Active listening.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Asians who aren't good at math.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>African children.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Agriculture.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>AIDS.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Alcoholism.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Altar boys.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Amputees.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An asymmetric boob job.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A big hoopla about nothing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An erection that lasts longer than four hours.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An icepick labotomy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An M. Night Shyamalan plot twist.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An Oedipus complex.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An oversized lollipop.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An ugly face.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Anal beads.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Arnold Schwarzenegger.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Assless chaps.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Authentic Mexican cuisine.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Auschwitz.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>AXE Body Spray.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Autocannibalism.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bill Nye the Science Guy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Balls.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Barack Obama.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>BATMAN!!!</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Battlefield amputations.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Becoming a blueberry.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bees?</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being a dick to children.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being a motherfucking sorcerer.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being fabulous.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being fat and stupid.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being marginalized.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being on fire.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being rich.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bingeing and purging.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Boogers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A bit of slap and tickle.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bitches.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Black people.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Concealing a boner.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Breaking out into song and dance.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Brown people.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Cards Against Humanity.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Catapults.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Centaurs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Chainsaws for hands.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Child abuse.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Child beauty pageants.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Children on leashes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Christopher Walken.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A bleached arsehole.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Civilian casualties.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Classist undertones.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Coat hanger abortions.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Count Chocula.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Consensual sex.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dick Cheney</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A brain tumour.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Crippling debt.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Crucifixion.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Doin' it in the butt.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Crystal meth.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Cuddling.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Cybernetic enhancements.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Daddy issues.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Domino's™ Oreo™ Dessert Pizza.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A caress of the inner thigh</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Darth Vader.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A cartoon camel enjoying the smooth, refreshing taste of a cigarette.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dead babies.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dead parents.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Destroying the evidence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Eating the last known bison.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dick fingers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Edible underpants.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Doing the right thing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Extremely tight pants.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Drinking alone.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dropping a chandelier on your enemies and riding the rope up.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dry heaving.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dying.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Fancy Feast®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Fiery poops.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Elderly Japanese men.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Embryonic stem cells.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A Chelsea smile. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Emotions.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Erectile dysfunction.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A clandestine butt scratch.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Estrogen.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Ethnic cleansing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Eugenics.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Exactly what you'd expect.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Expecting a burp and vomiting on the floor.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Explosions.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Five-Dollar Footlongs™.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Famine.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Former President George W. Bush.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Farting and walking away.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Fear itself.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting naked and watching Nickelodeon.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Finger painting.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Fingering.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Firing a rifle into the air while balls deep in a squealing hog.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Half-assed foreplay.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Flesh-eating bacteria.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Flightless birds.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Flying sex snakes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Foreskin.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Heteronormativity.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Free samples.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Friction.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Friendly fire.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Frolicking.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Full frontal nudity.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Funky fresh rhymes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Gandhi.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Geese.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A drive-by shooting.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>German dungeon porn.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jerking off into a pool of children's tears.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting really high.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting so angry that you pop a boner.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Ghosts.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A fanny fart. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Gloryholes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Goblins.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>God.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Grandma.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Grave robbing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Growing a pair.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jewish fraternities.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Harry Potter erotica.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A Fleshlight.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Heartwarming orphans.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Her Majesty, Queen Elizabeth II.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Judge Judy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A foetus. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Homeless people.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hope.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hormone injections.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Horrifying laser hair removal accidents.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Horse meat.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hospice care.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hot cheese.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hot people.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Inappropriate yodeling.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Incest.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A ginger's freckled ballsack.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A grande sugar-free iced soy caramel macchiato.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Italians.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Kanye West.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Kids with ass cancer.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A Gypsy curse.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Lunchables™.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Justin Bieber.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Kamikaze pilots.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Michelle Obama's arms.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Keanu Reeves.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mr. Clean, right behind you.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Lactation.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Lady Gaga.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Lance Armstrong's missing testicle.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Land mines.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Laying an egg.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Leprosy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Licking things to claim them as your own.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Lockjaw.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Lumberjack fantasies.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Not wearing pants.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A LAN party.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Making a pouty face.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Man meat.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Masturbation.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Me time.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>MechaHitler.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Men.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Menstrual rage.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Michael Jackson.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pedophiles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A look-see.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Morgan Freeman's voice.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mouth herpes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Poopy diapers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Multiple stab wounds.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mutually assured destruction.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Queefing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My collection of high-tech sex toys.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A mad cow.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My genitals.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My humps.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My inner demons.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My relationship status.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My sex life.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My soul.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My vagina.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Natural male enhancement.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Natural selection.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Nazis.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Necrophilia.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Nickelback.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Nicolas Cage.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Nipple blades.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Not giving a shit about the Third World.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Not reciprocating oral sex.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Republicans.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Object permanence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Old-people smell.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>One trillion dollars.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Oompa-Loompas.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Opposable thumbs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Overcompensation.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pac-Man uncontrollably guzzling cum.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Panda sex.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Passive-aggressive Post-it notes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Road head.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Peeing a little bit.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A madman who lives in a police box and kidnaps women.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Penis envy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pictures of boobs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pixelated bukkake.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Police Brutality.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pooping back and forth.Forever.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Robert Downey Jr.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Poor life choices.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Poor people.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Poorly-timed Holocaust jokes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Powerful thighs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Praying the gay away.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Preteens.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pretending to care.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Puberty.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pulling out.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Puppies!</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Shaquille O'Neal's acting career.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Racism.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Raptor attacks.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Repression.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Skeletor.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Smallpox blankets.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Switching to Geico®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>RoboCop.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A man on the brink of orgasm.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A moment of silence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Science.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Scientology.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sean Connery.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sean Penn.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Amish.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Self-loathing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Seppuku.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Serfdom.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A much younger woman.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A neglected Tamagotchi™.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sexual tension.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sexy pillow fights.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Shapeshifters.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Boy Scouts of America.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Shiny objects.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Silence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Care Bear Stare.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The entire Mormon Tabernacle Choir.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Smegma.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sniffing glue.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Hamburglar.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Soup that is too hot.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Spectacular abs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sperm whales.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Spontaneous human combustion.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Stalin.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Stephen Hawking talking dirty.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A nice cup of tea.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sunshine and rainbows.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Surprise sex!</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sweet, sweet vengeance.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The hardworking Mexican.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Swooping.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Synergistic management solutions.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Taking off your shirt.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tasteful sideboob.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Teaching a robot to love.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Teenage pregnancy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tentacle porn.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Testicular torsion.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Hustle.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Big Bang.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Blood of Christ.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The invisible hand.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Kool-Aid Man.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Chinese gymnastics team.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The clitoris.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A pangender octopus who roams the cosmos in search of love.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Devil Himself.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Little Engine That Could.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The female orgasm.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Force.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The gays.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The glass ceiling.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Great Depression.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Make-A-Wish® Foundation.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The penny whistle solo from "My Heart Will Go On".</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The heart of a child.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Holy Bible.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The homosexual agenda.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Rapture.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The inevitable heat death of the universe.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The South.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Jews.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The KKK</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Underground Railroad.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Third base.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Toni Morrison's vagina.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The milkman.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The miracle of childbirth.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A posh wank.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Used panties.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Vehicular manslaughter.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A saxophone solo.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The placenta.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Pope.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The profoundly handicapped.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Waking up half-naked in a Denny's parking lot.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Rev. Dr. Martin Luther King, Jr.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A sickly child-king.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Wiping her butt.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The terrorists.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The true meaning of Christmas.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Women in yogurt commercials.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A sober Irishman who doesn't care for potatoes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The violation of our most basic human rights.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A can of whoop-ass.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The World of Warcraft.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A spastic nerd.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>All-you-can-eat shrimp for $4.99.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A thousand Scottish warriors lifting their kilts in unison.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Throwing a virgin into a volcano.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tom Cruise.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An M16 assault rifle.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Two midgets shitting into a bucket.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Unfathomable stupidity.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Cheating in the Special Olympics.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Helplessly giggling at the mention of Hutus and Tutsis.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Viagra®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Vigorous jazz hands.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Vikings.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Waiting till marriage.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Home video of Oprah sobbing into a Lean Cuisine®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Wet dreams.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Whipping it out.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>White people.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>White privilege.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hurricane Katrina.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Wifely duties.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>William Shatner.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Winking at old people.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The chronic.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Tempur-Pedic® Swedish Sleep System™.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Women's suffrage.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>World peace.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Yeast.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A Tim Hortons franchise.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A bucket of fish heads.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Advice from a wise, old black man.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A vajazzled vagina.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A vindaloo poo. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A wheelchair death race.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A white van man.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Some god damn peace and quiet.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Abstinence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Accidentally slipping yourself a roofie.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Adult Friendfinder.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>All-you-can-eat shrimp for $8.99.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dying of dysentery.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Genghis Khan.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>America.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>American Gladiators.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An AK-47 assault rifle.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An AR-15 assault rifle.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An argument with Richard Dawkins.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An endless stream of diarrhea.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An entrenched class system.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Muhammad (Praise Be Unto Him).</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An honest cop with nothing left to lose.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Natalie Portman.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An icy handjob from an Edmonton hooker.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Anything that comes out of Prince Philip's mouth.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Prancing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Public ridicule.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Badger culling.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Same-sex ice dancing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bananas in Pajamas.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being Canadian.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Being hunted like a fox.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bestiality.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Take-backsies.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bio-engineered assault turtles with acid breath.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The art of seduction.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Blood, toil, tears, and sweat.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Blowing up Parliament.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The folly of man.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The light of a billion suns.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bogies.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bond, James Bond.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bono.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The token minority.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Vigilante justice.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>When you fart and a little bit comes out.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>YOU MUST CONSTRUCT ADDITIONAL PYLONS.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Aaron Burr.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Adderall™.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Figgy pudding.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting married, having a few kids, buying some stuff, retiring to Florida, and dying.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>GoGurt®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hot Pockets®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Racially-biased SAT questions.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Ronald Reagan.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Rush Limbaugh's soft, shitty body.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Three-Fifths compromise.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Trail of Tears</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Historically black colleges.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>John Wilkes Booth</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Booby-trapping the house to foil burglars.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Buckfast Tonic Wine.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Burning down the White House.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Canada: America's Hat.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Canned tuna with extra dolphin.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Giving 110%</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A death ray.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A hot mess.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Charisma.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A sausage festival.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Cheating in the Paralympics.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A wisecracking terrorist.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Actually taking candy from a baby.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Chivalry.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>New Age music.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>An uppercut.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Another goddamn vampire movie.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Attitude.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Bling.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Britney Spears at 55.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Capturing Newt Gingrich and forcing him to dance in a monkey suit.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Chunks of dead prostitute.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Chunks of dead hitchhiker.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Chutzpah.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dental dams.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Eating all of the cookies before the AIDS bake-sale.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Cockfights.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Feeding Rosie O'Donnell.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>College.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The American Dream</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Four Loko.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Friends with benefits.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Genital piercings.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting drunk on mouthwash.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Golden showers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Guys who don't call.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hulk Hogan.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Completely unwarranted confidence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Concealing an erection.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Consultants.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Cookie Monster devouring the Eucharist wafers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Cottaging. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Leaving an awkward voicemail.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Court-ordered rehab.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Creed.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Obesity.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Crumbs all over the bloody carpet.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pabst Blue Ribbon.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Crumbs all over the god damn carpet.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Crumpets with the Queen.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>A foul mouth.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Customer service representatives.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Parting the Red Sea.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Passable transvestites.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Passing a kidney stone.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Picking up girls at the abortion clinic.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Popped collars.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Daddies® Brown Sauce.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Daniel Radcliffe's delicious arsehole.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Porn stars.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Daniel Radcliffe's delicious asshole.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Danny DeVito.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dark and mysterious forces beyond our control.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Date rape.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dave Matthews Band.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Rehab.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>David Bowie flying in on a tiger made of lightning. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Roofies.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>David Cameron.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sarah Palin.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dirty nappies.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Saxophone solos.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Scalping.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Scrubbing under the folds.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dogging.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sexting.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sharing needles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Stormtroopers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Doing a shit in Pudsey Bear's eyehole.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Doing crimes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Don Cherry's wardrobe.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Stranger danger.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tangled Slinkys.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>That thing that electrocutes your abs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Donald Trump.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Dance of the Sugar Plum Fairy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Douchebags on their iPhones.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dr. Martin Luther King, Jr.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Drinking out of the toilet and eating garbage.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The taint; the grundle; the fleshy fun-bridge.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Übermensch.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Drowning the kids in the bathtub.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Druids.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Drum circles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Virginia Tech Massacre</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Wearing underwear inside-out to avoid doing laundry.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Dwarf tossing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Eastern European Turbo-Folk music.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Eating too much of a lamp.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Ecstasy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Ed Balls.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Edible underwear.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Electricity.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Emma Watson.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>England</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Establishing dominance.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Euphoria™ by Calvin Klein.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Excalibur.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Exchanging pleasantries.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Existentialists.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Extremely tight trousers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Fading away into nothingness.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Copping a feel.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Faffing about. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Faith healing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>FALCON PUNCH!!!</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Farting into your petticoats and wafting it at Lord Gregory.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Filling Sean Hannity with helium and watching him float away.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Five litres of Special Brew.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Flash flooding.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Flavored condoms.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Forgetting the Alamo.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Friends who eat all the snacks.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Front butt.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Garth Brooks.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Gary Coleman.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Gary Glitter. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Gentleman's Relish®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Genuine human connection.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Germans on holiday.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting crushed by a vending machine.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting naked and watching CBeebies. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting pregnant again.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Getting wed, having a few kids, taking some pictures, retiring to the south of France, and dying.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Girls who shouldn't go wild.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Giving birth to the Antichrist.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Glenn Beck being harried by a swarm of buzzards.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Glenn Beck catching his scrotum on a curtain hook.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Glenn Beck convulsively vomiting as a brood of crab spiders hatches in his brain and erupts from his tear ducts.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Glenn Beck.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Global warming.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Goats eating cans.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Goats eating coins.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Haggis.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Have some more kugel.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Having anuses for eyes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Having big dreams but no realistic way to achieve them.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Heath Ledger.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Her Royal Highness, Queen Elizabeth II.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Heritage minutes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hip hop jewels.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Holding down a child and farting all over him.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Homo milk.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>However much weed $20 can buy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hunting "accidents".</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Hurling one's body down a hill in pursuit of a wheel of cheese.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>I'm friends with your dad on Facebook.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Impotence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Improvised explosive devices.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Inappropriate yelling.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Inserting a Mason jar into my anus.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Intelligent design.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Invading Poland.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Irritable Bowel Syndrome.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jade Goody's cancerous remains.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jedward.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jehovah's Witnesses.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jennifer Lawrence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jew-fros.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jibber-jabber.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jimmy Savile.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Jobs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Joe Biden.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Just touching David Beckham's hair.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Keeping Christ in Christmas.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Keg stands.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Kibbles n' Bits.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Kids with bum cancer.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Kim Jong-il.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Leaked footage of Kate Middleton's colonoscopy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Letting yourself go.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Loose lips.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>LYNX® Body Spray.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mad cow disease.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Madeleine McCann.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Magnets.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Making sex at her.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Marky Mark and the Funky Bunch.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Martha Stewart.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mathletes.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Maureen of Blackpool, Reader's Wife of the Year 1988.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Menstruation.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Miley Cyrus at 55.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Millwall fans.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mining accidents.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mistaking a retarded person for someone who's merely deaf.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mountain Dew Code Red.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mr. Dressup.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Mr. Snuffleupagus.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Muhammad (Peace Be Upon Him).</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Muzzy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My balls on your face.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My black ass.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>My ex-wife.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Naked News.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Newfies.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Nip slips.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Nocturnal emissions.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Not wearing trousers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>One Direction's supple, hairless bodies.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Our first chimpanzee President.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Oversized lollipops.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Paedophiles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Paris Hilton.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Party poopers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Passive-aggression.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>PCP.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Peanut Butter Jelly Time.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Penis breath.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>People who smell their own socks.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Perfunctory foreplay.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Permanent Orgasm-Face Disorder.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pooping in a laptop and closing it.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pooping in the soup.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Poutine.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Poverty.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pronouncing the names of northern Welsh towns.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Prosti-tots.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Pterodactyl eggs.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Punching a congressman in the face.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Queen Elizabeth's immaculate anus.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Rap music.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Raping and pillaging.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Re-gifting.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Ring Pops™.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Rip Torn dropkicking anti-Semitic lesbians.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Ripping off the Beatles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Rob Ford.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Robbing a sperm bank.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Rubbing Boris Johnson's belly until he falls asleep. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Running out of semen.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Saying "I love you."</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Scalping the Milkybar Kid.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Schmirler the Curler.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Scousers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Seduction.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Seeing Grandma naked.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Seeing Granny naked.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Seething with quiet resentment.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Selling crack to children.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sex with Patrick Stewart.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sexual peeing.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Shitting out a perfect Cumberland sausage.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Riding off into the sunset.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Shorties and blunts.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Showing up to an orgy for the food.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sipping artificial popcorn butter.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Slapping a biscuit out of an orphan's mouth.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Snotsicles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sobbing into a Hungry-Man™ Frozen Dinner.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Soiling oneself.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Solving problems with violence.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Some bloody peace and quiet.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Spaniards.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Stephen Harper.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Steve Irwin.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Stifling a giggle at the mention of Hutus and Tutsis.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Still being a virgin.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Strong female characters.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Stunt doubles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Substitute teachers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Sucking some dicks to not get drafted.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Swag.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Syrupy sex with a maple tree.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tap dancing like there's no tomorrow.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Team-building exercises.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Terry Fox's prosthetic leg.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>That one gay Teletubby.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Black Death.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The bloody Welsh. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The BNP.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The cool, refreshing taste of Pepsi®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The deformed.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Donald Trump Seal of Approval.™</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The drama club.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The end of days.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The entire cast of Downton Abbey.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The FLQ</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The forbidden fruit.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The French.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Hillsborough Disaster.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The homosexual lifestyle.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Honey Monster.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The morbidly obese.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The North.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Official Languages Act. La Loi sur les langues officielles.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Patriarchy.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The People's Elbow.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The petty troubles of the landed gentry.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The pirate's life.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The plot of a Michael Bay movie.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Red Menace.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The rhythms of Africa.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Royal Canadian Mounted Police.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Scouts. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The screams...the terrible screams.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Stig.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The sudden appearance of the Go Compare man.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Superdome.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The Thong Song.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The unstoppable tide of Islam.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The way James Bond treats women.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The wonders of the Orient.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>The wrath of Vladimir Putin.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>This answer is postmodern.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>This year's mass shooting.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Those times when you get sand in your vagina.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Three dicks at the same time.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tickle Me Elmo.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tiger Woods.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Too much hair gel.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tories.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tickling Sean Hannity, even after he tells you to stop.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Touching a pug right on his penis.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Trench foot.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Tweeting.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Twinkies®.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Uppercuts.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Used knickers.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Vehicular homicide.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Waking up half-naked in a Little Chef car park.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Wanking into a pool of children's tears.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Waterboarding.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>White-man scalps.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Will Smith.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Wiping her bum. </text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Women in yoghurt adverts.</text>
-	</card>
-	<card>
+	</cardData>
+	<cardData>
 		<text>Your weird brother.</text>
-	</card>
+	</cardData>
 </whitedeck>

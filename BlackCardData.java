@@ -5,14 +5,15 @@ package inhumane;
  *
  */
 
-class BlackCard extends Card {
+class BlackCardData extends CardData {
 	int pick;
 	int draw;
 
-	BlackCard(String text, int pick, int draw) {
-		super(text);
+	BlackCardData(String text, Deck deck, int pick, int draw) {
+		super(text, deck);
 		this.pick = pick;
 		this.draw = draw;
+		this.type = Type.black;
 	}
 
 	@Override

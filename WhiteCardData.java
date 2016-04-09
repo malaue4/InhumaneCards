@@ -3,11 +3,12 @@ package inhumane;
 /**
  * Created by martin on 4/5/16.
  */
-public class WhiteCard extends Card {
+public class WhiteCardData extends CardData {
 	private Boolean blank = false;
 
-	public WhiteCard(String text) {
-		super(text);
+	public WhiteCardData(String text, Deck deck) {
+		super(text, deck);
+		type = Type.white;
 	}
 
 	public Boolean getBlank() {
