@@ -1,5 +1,6 @@
 package inhumane;
 
+import inhumane.net.Server;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -31,6 +32,7 @@ public class Main extends Application {
 
 	Dealer dealer;
 	Game game;
+	Server server = new Server();
 
 
     @Override
@@ -55,6 +57,8 @@ public class Main extends Application {
 
 		game = new Game();
 
+		server.startDiscovery(8888);
+
 		ArrayList<Player> players = new ArrayList<>();
 		players.add(new Player("player1"));
 		players.add(new Player("player2"));
@@ -76,6 +80,10 @@ public class Main extends Application {
 		primaryStage.show();
     }
 
+
+	public void stop(){
+		server.stopDiscovery();
+	}
 
     public static void main(String[] args) {
         launch(args);
