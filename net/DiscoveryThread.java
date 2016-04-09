@@ -9,12 +9,12 @@ import java.net.*;
  */
 
 
-public class DiscoveryThread implements Runnable {
-	DatagramSocket socket;
+class DiscoveryThread implements Runnable {
+	private DatagramSocket socket;
 	private static int port = 8888;
 	private volatile boolean isRunning;
 
-	public static void setPort(int port) {
+	static void setPort(int port) {
 		DiscoveryThread.port = port;
 	}
 
@@ -67,11 +67,11 @@ public class DiscoveryThread implements Runnable {
 		System.out.println("Discover Stop");
 	}
 
-	public void kill(){
+	void kill(){
 		isRunning = false;
 	}
 
-	public static DiscoveryThread getInstance() {
+	static DiscoveryThread getInstance() {
 		return DiscoveryThreadHolder.INSTANCE;
 	}
 
