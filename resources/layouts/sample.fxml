@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.TextFlow?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inhumane.Controller">
+    <TilePane id="tilePane" prefColumns="4" prefRows="1" prefTileHeight="240.0" prefTileWidth="240.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextFlow id="textField" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <BorderPane id="serverStuff" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.rowSpan="2">
+      <top>
+         <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+           <buttons>
+               <ToggleButton fx:id="toggleDiscover" mnemonicParsing="false" onAction="#toggleDiscover" selected="false" text="Discover" />
+           </buttons>
+         </ButtonBar>
+      </top>
+      <center>
+         <ListView fx:id="playerListView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+      </center></BorderPane>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

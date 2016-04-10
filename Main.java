@@ -32,22 +32,14 @@ public class Main extends Application {
 
 	Dealer dealer;
 	Game game;
-	Server server = new Server();
 
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("resources/layouts/sample.fxml"));
         primaryStage.setTitle("Hello World");
 		Scene scene = new Scene(root, 1000, 325);
 		primaryStage.setScene(scene);
-
-		/*dealer = loadDecks();
-
-		Deck deck = new Deck("Main", "Cards Against Humanity");
-		deck.blackCards.addAll(dealer.blackStack);
-		deck.whiteCards.addAll(dealer.whiteStack);
-		saveDeck(deck);*/
 
 		Deck deck = loadDeck(getClass().getResourceAsStream("resources/cards/main.xml"));
 
@@ -56,8 +48,6 @@ public class Main extends Application {
 		dealer.shuffleCards();
 
 		game = new Game();
-
-		server.startDiscovery(8888);
 
 		ArrayList<Player> players = new ArrayList<>();
 		players.add(new Player("player1"));
@@ -78,11 +68,14 @@ public class Main extends Application {
 
 		((TextFlow)root.getChildrenUnmodifiable().get(1)).getChildren().add(new Text(dealer.printTest()));
 		primaryStage.show();
+
+		//BooleanBinding binding = Bindings.createBooleanBinding(()->Server.interrupting.equals(true), Server.interrupting);
+		//Controller.toggleDiscover.disableProperty().bind(Server.interrupting);
     }
 
 
 	public void stop(){
-		server.stopDiscovery();
+		Server.stopDiscovery();
 	}
 
     public static void main(String[] args) {

@@ -4,7 +4,6 @@ package inhumane.net;
  * Created by martin on 4/9/16.
  */
 public class Server {
-	boolean isDiscovering = false;
 
 	enum commands{
 		DISCOVER_SERVER_REQUEST,
@@ -16,19 +15,28 @@ public class Server {
 		GAME_SERVER_MESSAGE_QUIT			// The server informs players that it is shutting down
 	}
 
-	public void startDiscovery(int port){
-		if(!isDiscovering) {
-			isDiscovering = true;
+	public static boolean startDiscovery(int port){
+		if(!isDiscovering()) {
 			DiscoveryThread.setPort(port);
 			Thread discoveryThread = new Thread(DiscoveryThread.getInstance());
 			discoveryThread.start();
+			return true;
 		} else {
 			System.out.println("Already discovery enabled!");
+			return false;
 		}
 	}
 
-	public void stopDiscovery(){
-		DiscoveryThread.getInstance().kill();
-		isDiscovering = false;
+	public static boolean isDiscovering(){
+		return DiscoveryThread.getInstance().isRunning();
+	}
+
+	public static boolean stopDiscovery(){
+		if(!DiscoveryThread.getInstance().isInterrupted()) {
+			DiscoveryThread.getInstance().interrupt();
+			return true;
+		} else {
+			return false;
+		}
 	}
 }

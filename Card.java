@@ -1,7 +1,6 @@
 package inhumane;
 
 import javafx.geometry.Insets;
-import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -16,13 +15,16 @@ import javafx.scene.text.Text;
  *
  */
 
-public class Card extends BorderPane {
+public class Card extends AnchorPane {
 	CardData cardData;
 	CardType cardType;
-	Font font;
-	static final Font iconFont = new Font("Arial", 10);
-	static final Font pickFont = new Font("Impact", 16);
+
+	private Text cardText;
+	private Font cardTextFont;
 	final Image icon;
+	private Text iconText;
+	static final Font iconFont = new Font("Arial", 12);
+	static final Font specialFont = new Font("Impact", 16);
 
 	enum CardType {
 		black,
@@ -35,28 +37,35 @@ public class Card extends BorderPane {
 	}
 
 	public Card(CardData cardData) {
-		icon = new Image(getClass().getResource("/inhumane/resources/images/CAH.png").toExternalForm());
 		this.cardData = cardData;
-		Text text = new Text(cardData.getText());
-		font = new Font("Arial", Math.min(22, 18*100/text.getText().length()));
-		text.setWrappingWidth(200);
-		text.setFont(font);
-		setTop(text);
+
+		icon = new Image(getClass().getResource("/inhumane/resources/images/CAH.png").toExternalForm());
+		cardText = new Text(cardData.getText());
+		cardTextFont = new Font("Arial", Math.min(22, 18*100/ cardText.getText().length()));
+		cardText.setWrappingWidth(200);
+		cardText.setFont(cardTextFont);
+		setTopAnchor(cardText, 0.0);
+		setLeftAnchor(cardText, 0.0);
+		setRightAnchor(cardText, 0.0);
 		setPrefSize(240, 240);
 		setMinSize(240, 240);
 		setMaxSize(240, 240);
-		setMargin(text, new Insets(20, 20, 20, 20));
+		setPadding(new Insets(20, 20, 20, 20));
 		setStyle("-fx-border-color: black; -fx-border-width: 1;");
 
 		ImageView imageView = new ImageView(icon);
-		imageView.setAccessibleText("Image of a black cardData and two white cards");
-		Text iconText = new Text("CAH");
+		iconText = new Text("Cards Against Humanity");
 		iconText.setFont(iconFont);
-		BorderPane iconPane = new BorderPane();
-		iconPane.setLeft(imageView);
-		iconPane.setCenter(iconText);
-		iconPane.setAlignment(iconText, Pos.CENTER_LEFT);
-		setBottom(iconPane);
+		HBox iconPane = new HBox();
+		iconPane.setSpacing(3);
+		iconPane.getChildren().add(imageView);
+		iconPane.getChildren().add(iconText);
+		iconPane.setAlignment(Pos.CENTER_LEFT);
+		setBottomAnchor(iconPane, -15.0);
+		setLeftAnchor(iconPane, -10.0);
+		getChildren().addAll(cardText, iconPane);
+
+
 	}
 
 	public Card(WhiteCardData card) {
@@ -68,44 +77,50 @@ public class Card extends BorderPane {
 	public Card(BlackCardData card) {
 		this((CardData) card);
 		this.cardType = CardType.black;
-		Text text = (Text) getTop();
-		text.setFill(Color.WHITE);
-		Text iconText = (Text) ((BorderPane)getBottom()).getCenter();
+		cardText.setFill(Color.WHITE);
 		iconText.setFill(Color.WHITE);
 		setBackground(new Background(new BackgroundFill(Color.BLACK, CornerRadii.EMPTY, Insets.EMPTY)));
 
-		TilePane tilePane = new TilePane(Orientation.HORIZONTAL);
-		tilePane.setPrefHeight(10);
-		tilePane.setMaxWidth(40);
-		if(card.draw>0){
-			tilePane.getChildren().add(createThing(Special.draw, card.draw));
+		if(card.draw>0 || card.pick>1){
+			iconText.setText("CAH");
+			VBox vBox = new VBox();
+			vBox.setPrefSize(0, 0);
+			vBox.setSpacing(3);
+			if(card.draw>0){
+				vBox.getChildren().add(createThing(Special.draw, card.draw));
+			}
+			if(card.pick>1){
+				vBox.getChildren().add(createThing(Special.pick, card.pick));
+			}
+			setRightAnchor(vBox, -10.0);
+			setBottomAnchor(vBox, -10.0);
+			getChildren().add(vBox);
 		}
-		if(card.pick>1){
-			tilePane.getChildren().add(createThing(Special.pick, card.pick));
-		}
-		((BorderPane)getBottom()).setRight(tilePane);
 	}
 
-	BorderPane createThing(Special label, int number){
-		BorderPane layout = new BorderPane();
+	HBox createThing(Special label, int number){
+		HBox layout = new HBox();
+		layout.setAlignment(Pos.CENTER_RIGHT);
+		layout.setSpacing(3);
+
+		//The cardText next to the circle
 		Text text = new Text(label.toString().toUpperCase());
-		text.setFont(pickFont);
-		text.setStyle("-fx-font-weight: bold;");
+		text.setFont(specialFont);
 		text.setFill(Color.WHITE);
-		layout.setCenter(text);
-		layout.setAlignment(text, Pos.CENTER_RIGHT);
+		layout.getChildren().add(text);
+
+		//The circle and number
+		StackPane stackPane = new StackPane();
 		Circle circle = new Circle(13);
 		circle.setFill(Color.WHITE);
-		StackPane stackPane = new StackPane();
 		Text textNumber = new Text("" + number);
-		textNumber.setFont(pickFont);
-		textNumber.setStyle("-fx-font-weight: bold;");
+		textNumber.setFont(specialFont);
+		//textNumber.setStyle("-fx-cardTextFont-weight: bold;");
 		stackPane.getChildren().addAll(
 				circle,
 				textNumber
 		);
-		stackPane.setPadding(new Insets(3,23,3,3));
-		layout.setRight(stackPane);
+		layout.getChildren().add(stackPane);
 		return layout;
 	}
 }

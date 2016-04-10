@@ -10,9 +10,9 @@ import java.net.*;
 
 
 class DiscoveryThread implements Runnable {
-	private DatagramSocket socket;
 	private static int port = 8888;
-	private volatile boolean isRunning;
+	private volatile boolean running;
+	private volatile boolean interrupted;
 
 	static void setPort(int port) {
 		DiscoveryThread.port = port;
@@ -20,16 +20,17 @@ class DiscoveryThread implements Runnable {
 
 	@Override
 	public void run() {
-		isRunning = true;
+		running = true;
+		interrupted = false;
 		System.out.println("Discover Start");
 		try{
 			//keep socket open
-			socket = new DatagramSocket(port, InetAddress.getByName("0.0.0.0"));
+			DatagramSocket socket = new DatagramSocket(port, InetAddress.getByName("0.0.0.0"));
 			socket.setBroadcast(true);
-			socket.setSoTimeout(5000);
+			socket.setSoTimeout(500);
 
-			while(isRunning){
-				System.out.println(getClass().getName() + ">>>Ready to receive broadcast packets!");
+			System.out.println(getClass().getName() + ">>>Ready to receive broadcast packets!");
+			while(!interrupted){
 
 				//Receive a packet
 				byte[] receiveBuffer = new byte[15000];
@@ -57,6 +58,7 @@ class DiscoveryThread implements Runnable {
 				}
 			}
 
+			socket.close();
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		} catch (SocketException e) {
@@ -65,14 +67,24 @@ class DiscoveryThread implements Runnable {
 			e.printStackTrace();
 		}
 		System.out.println("Discover Stop");
+		running = false;
+		interrupted = false;
 	}
 
-	void kill(){
-		isRunning = false;
+	boolean isRunning(){
+		return running;
+	}
+
+	void interrupt(){
+		interrupted = true;
 	}
 
 	static DiscoveryThread getInstance() {
 		return DiscoveryThreadHolder.INSTANCE;
+	}
+
+	public boolean isInterrupted() {
+		return interrupted;
 	}
 
 	private static class DiscoveryThreadHolder {
