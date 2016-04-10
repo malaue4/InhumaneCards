@@ -1,5 +1,8 @@
 package inhumane.net;
 
+import javafx.beans.property.BooleanProperty;
+import javafx.beans.property.SimpleBooleanProperty;
+
 import java.io.IOException;
 import java.net.*;
 
@@ -12,7 +15,7 @@ import java.net.*;
 class DiscoveryThread implements Runnable {
 	private static int port = 8888;
 	private volatile boolean running;
-	private volatile boolean interrupted;
+	static volatile BooleanProperty interrupted = new SimpleBooleanProperty(false);
 
 	static void setPort(int port) {
 		DiscoveryThread.port = port;
@@ -21,16 +24,16 @@ class DiscoveryThread implements Runnable {
 	@Override
 	public void run() {
 		running = true;
-		interrupted = false;
+		interrupted.set(false);
 		System.out.println("Discover Start");
 		try{
 			//keep socket open
 			DatagramSocket socket = new DatagramSocket(port, InetAddress.getByName("0.0.0.0"));
 			socket.setBroadcast(true);
-			socket.setSoTimeout(500);
+			socket.setSoTimeout(1000);
 
 			System.out.println(getClass().getName() + ">>>Ready to receive broadcast packets!");
-			while(!interrupted){
+			while(!interrupted.get()){
 
 				//Receive a packet
 				byte[] receiveBuffer = new byte[15000];
@@ -68,7 +71,7 @@ class DiscoveryThread implements Runnable {
 		}
 		System.out.println("Discover Stop");
 		running = false;
-		interrupted = false;
+		interrupted.set(false);
 	}
 
 	boolean isRunning(){
@@ -76,7 +79,7 @@ class DiscoveryThread implements Runnable {
 	}
 
 	void interrupt(){
-		interrupted = true;
+		interrupted.set(true);
 	}
 
 	static DiscoveryThread getInstance() {
@@ -84,7 +87,7 @@ class DiscoveryThread implements Runnable {
 	}
 
 	public boolean isInterrupted() {
-		return interrupted;
+		return interrupted.get();
 	}
 
 	private static class DiscoveryThreadHolder {

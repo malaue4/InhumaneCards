@@ -1,9 +1,16 @@
 package inhumane.net;
 
+import inhumane.Player;
+import javafx.beans.property.BooleanProperty;
+
+import java.util.ArrayList;
+
 /**
  * Created by martin on 4/9/16.
  */
 public class Server {
+
+	ArrayList<Player> players;
 
 	enum commands{
 		DISCOVER_SERVER_REQUEST,
@@ -29,6 +36,10 @@ public class Server {
 
 	public static boolean isDiscovering(){
 		return DiscoveryThread.getInstance().isRunning();
+	}
+
+	public static BooleanProperty getInterruptedProperty(){
+		return DiscoveryThread.interrupted;
 	}
 
 	public static boolean stopDiscovery(){

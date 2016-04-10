@@ -5,9 +5,6 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.TilePane;
-import javafx.scene.text.Text;
-import javafx.scene.text.TextFlow;
 import javafx.stage.Stage;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -26,51 +23,18 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 
 public class Main extends Application {
-
-	Dealer dealer;
-	Game game;
 
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("resources/layouts/sample.fxml"));
         primaryStage.setTitle("Hello World");
-		Scene scene = new Scene(root, 1000, 325);
+		Scene scene = new Scene(root);
 		primaryStage.setScene(scene);
 
-		Deck deck = loadDeck(getClass().getResourceAsStream("resources/cards/main.xml"));
-
-		dealer = new Dealer();
-		dealer.addDeck(deck);
-		dealer.shuffleCards();
-
-		game = new Game();
-
-		ArrayList<Player> players = new ArrayList<>();
-		players.add(new Player("player1"));
-		players.add(new Player("player2"));
-		players.add(new Player("player3"));
-		players.add(new Player("player4"));
-		players.add(new Player("player5"));
-		game.newGame(players);
-
-		BlackCardData card;
-		do {
-			card = dealer.drawBlackCard();
-		} while (card.pick<2);
-		((TilePane)root.getChildrenUnmodifiable().get(0)).getChildren().add(new Card(card));
-		for (int i = 0; i < card.pick; i++) {
-			((TilePane)root.getChildrenUnmodifiable().get(0)).getChildren().add(new Card(dealer.drawWhiteCard()));
-		}
-
-		((TextFlow)root.getChildrenUnmodifiable().get(1)).getChildren().add(new Text(dealer.printTest()));
 		primaryStage.show();
-
-		//BooleanBinding binding = Bindings.createBooleanBinding(()->Server.interrupting.equals(true), Server.interrupting);
-		//Controller.toggleDiscover.disableProperty().bind(Server.interrupting);
     }
 
 
@@ -159,7 +123,7 @@ public class Main extends Application {
 		return dealer;
 	}
 
-	Deck loadDeck(InputStream inputStream){
+	static Deck loadDeck(InputStream inputStream){
 		Document document = readXML(inputStream);
 		Element deckNode = (Element) document.getElementsByTagName("deck").item(0);
 
