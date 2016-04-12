@@ -10,7 +10,7 @@ import java.util.ArrayList;
  */
 public class Server {
 
-	ArrayList<Player> players;
+	ArrayList<Client> players;
 
 	enum commands{
 		DISCOVER_SERVER_REQUEST,

@@ -17,8 +17,9 @@ class DiscoveryThread implements Runnable {
 	private volatile boolean running;
 	static volatile BooleanProperty interrupted = new SimpleBooleanProperty(false);
 
-	static void setPort(int port) {
-		DiscoveryThread.port = port;
+	private static DiscoveryThread ourInstance = new DiscoveryThread();
+	public static DiscoveryThread getInstance() {
+		return ourInstance;
 	}
 
 	@Override
@@ -74,6 +75,10 @@ class DiscoveryThread implements Runnable {
 		interrupted.set(false);
 	}
 
+	static void setPort(int port) {
+		DiscoveryThread.port = port;
+	}
+
 	boolean isRunning(){
 		return running;
 	}
@@ -82,16 +87,8 @@ class DiscoveryThread implements Runnable {
 		interrupted.set(true);
 	}
 
-	static DiscoveryThread getInstance() {
-		return DiscoveryThreadHolder.INSTANCE;
-	}
-
-	public boolean isInterrupted() {
+	boolean isInterrupted() {
 		return interrupted.get();
-	}
-
-	private static class DiscoveryThreadHolder {
-		private static final DiscoveryThread INSTANCE = new DiscoveryThread();
 	}
 
 }
