@@ -13,6 +13,11 @@ public class Player {
 	int awesomePoints;
 	ArrayList<WhiteCardData> cards;
 
+	@Override
+	public String toString() {
+		return name;
+	}
+
 	public Player(String name) {
 		this.name = name;
 		awesomePoints = 0;

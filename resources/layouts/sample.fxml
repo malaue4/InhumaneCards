@@ -2,48 +2,71 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<BorderPane xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inhumane.Controller">
-    <top>
-        <ScrollPane prefHeight="240.0" prefWidth="480.0">
-            <content>
-                <HBox fx:id="cardHolder" prefHeight="100.0" prefWidth="200.0" />
-            </content>
-        </ScrollPane>
-    </top>
-    <left>
-        <BorderPane fx:id="serverStuff">
-            <center>
-                <TitledPane alignment="TOP_LEFT" text="Players" BorderPane.alignment="CENTER">
-                    <content>
-                        <ListView fx:id="playerListView" prefHeight="240.0" prefWidth="200.0" />
-                    </content>
-                </TitledPane>
-            </center>
-            <bottom>
-                <HBox BorderPane.alignment="CENTER">
-                    <children>
-                        <ToggleButton fx:id="discoverToggle" mnemonicParsing="false" onAction="#toggleDiscover" text="Start Discovery" />
-                    </children>
-                </HBox>
-            </bottom>
-        </BorderPane>
-    </left>
-    <center>
-        <BorderPane prefHeight="200.0" prefWidth="200.0">
-            <center>
-                <TextArea prefHeight="200.0" prefWidth="200.0" wrapText="true" BorderPane.alignment="CENTER" />
-            </center>
-            <top>
-                <Label text="Label" BorderPane.alignment="CENTER" />
-            </top>
-            <bottom>
-                <HBox prefWidth="200.0" BorderPane.alignment="TOP_LEFT">
-                    <children>
-                        <Button mnemonicParsing="false" text="Chat" />
-                        <TextField prefHeight="10.0" promptText="Chat here" HBox.hgrow="ALWAYS" />
-                    </children>
-                </HBox>
-            </bottom>
-        </BorderPane>
-    </center>
-</BorderPane>
+<TabPane tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inhumane.Controller">
+   <tabs>
+      <Tab closable="false" text="Server">
+         <content>
+            <BorderPane>
+                <top>
+                    <ScrollPane prefHeight="260.0" prefWidth="500.0" vbarPolicy="NEVER">
+                        <content>
+                            <HBox fx:id="cardHolder" prefHeight="100.0" prefWidth="200.0" />
+                        </content>
+                    </ScrollPane>
+                </top>
+                <left>
+                    <BorderPane>
+                        <center>
+                              <ListView fx:id="playerListView" prefHeight="240.0" prefWidth="200.0" BorderPane.alignment="TOP_LEFT" />
+                        </center>
+                        <bottom>
+                            <HBox BorderPane.alignment="CENTER" />
+                        </bottom>
+                     <top>
+                        <Label text="Players" BorderPane.alignment="CENTER" />
+                     </top>
+                    </BorderPane>
+                </left>
+                <center>
+                    <BorderPane prefHeight="200.0" prefWidth="200.0">
+                        <center>
+                            <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" BorderPane.alignment="CENTER" />
+                        </center>
+                        <top>
+                            <Label text="Events" BorderPane.alignment="CENTER" />
+                        </top>
+                        <bottom>
+                            <HBox prefWidth="200.0" BorderPane.alignment="TOP_LEFT" />
+                        </bottom>
+                    </BorderPane>
+                </center>
+                <bottom>
+                    <HBox>
+                     <children>
+                        <Label contentDisplay="RIGHT" text="Discoverable">
+                           <graphic>
+                              <ToggleButton fx:id="discoverToggle" mnemonicParsing="false" onAction="#toggleDiscover" />
+                           </graphic>
+                        </Label>
+                        <Separator orientation="VERTICAL" />
+                        <Button mnemonicParsing="false" onAction="#clientDiscover" text="Button" />
+                     </children>
+                  </HBox>
+                </bottom>
+            </BorderPane>
+         </content>
+      </Tab>
+       <Tab closable="false" text="Client">
+           <content>
+               <BorderPane>
+               <left>
+                  <Label contentDisplay="RIGHT" text="Name" BorderPane.alignment="CENTER">
+                     <graphic>
+                        <TextField promptText="Enter name..." />
+                     </graphic>
+                  </Label>
+               </left></BorderPane>
+           </content>
+       </Tab>
+   </tabs>
+</TabPane>

@@ -1,8 +1,8 @@
 package inhumane;
 
-import inhumane.net.Server;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.JavaFXBuilderFactory;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -23,13 +23,20 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
 
 public class Main extends Application {
 
+	FXMLLoader fxmlLoader;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("resources/layouts/sample.fxml"));
+		URL location = getClass().getResource("resources/layouts/sample.fxml");
+		fxmlLoader = new FXMLLoader();
+		fxmlLoader.setLocation(location);
+		fxmlLoader.setBuilderFactory(new JavaFXBuilderFactory());
+		Parent root = fxmlLoader.load(location.openStream());
+
         primaryStage.setTitle("Hello World");
 		Scene scene = new Scene(root);
 		primaryStage.setScene(scene);
@@ -39,7 +46,7 @@ public class Main extends Application {
 
 
 	public void stop(){
-		Server.stopDiscovery();
+		((Controller) fxmlLoader.getController()).stop();
 	}
 
     public static void main(String[] args) {

@@ -1,16 +1,28 @@
 package inhumane.net;
 
-import inhumane.Player;
 import javafx.beans.property.BooleanProperty;
 
-import java.util.ArrayList;
+import java.net.DatagramPacket;
 
 /**
  * Created by martin on 4/9/16.
  */
-public class Server {
+public class Server extends NetThing{
 
-	ArrayList<Client> players;
+	@Override
+	void handle(DatagramPacket packet) {
+		System.out.println(getClass().getName() + ">>>Packet received; data: " + new String(packet.getData()));
+		String message = new String(packet.getData()).trim();
+		if(message.equals(Server.commands.DISCOVER_SERVER_REQUEST.toString())){
+			byte[] sendData = Server.commands.DISCOVER_SERVER_RESPONSE.toString().getBytes();
+
+			//Send a response
+			//DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, packet.getAddress(), packet.getPort());
+			send(sendData, packet.getAddress());
+
+			System.out.println(getClass().getName() + ">>>Sent packet to: " + packet.getAddress().getHostAddress());
+		}
+	}
 
 	enum commands{
 		DISCOVER_SERVER_REQUEST,
@@ -38,8 +50,8 @@ public class Server {
 		return DiscoveryThread.getInstance().isRunning();
 	}
 
-	public static BooleanProperty getInterruptedProperty(){
-		return DiscoveryThread.interrupted;
+	public BooleanProperty getInterruptedProperty(){
+		return interupted;//DiscoveryThread.interrupted;
 	}
 
 	public static boolean stopDiscovery(){

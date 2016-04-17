@@ -1,29 +1,33 @@
 package inhumane;
 
+import inhumane.net.Client;
 import inhumane.net.Server;
 import javafx.event.ActionEvent;
 import javafx.scene.control.ListView;
 import javafx.scene.control.ToggleButton;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
-import javafx.scene.text.Text;
-import javafx.scene.text.TextFlow;
-
-import java.util.ArrayList;
 
 public class Controller {
-    public ListView playerListView;
-	public BorderPane serverStuff;
-	public TextFlow textField;
+    public ListView<Player> playerListView;
 	public ToggleButton discoverToggle;
 	public HBox cardHolder;
 
+	ImageView connectIcon, disconnectIcon;
+
 	Dealer dealer;
 	Game game;
+	Client client;
+	Server server;
 
 	public void initialize(){
-		playerListView.getItems().add(new Text("WHY"));
-		discoverToggle.disableProperty().bind(Server.getInterruptedProperty());
+		server = new Server();
+		connectIcon = new ImageView(getClass().getResource("resources/images/discover.png").toExternalForm());
+		connectIcon.setFitWidth(16); connectIcon.setFitHeight(16);
+		disconnectIcon = new ImageView(getClass().getResource("resources/images/no_discover.png").toExternalForm());
+		disconnectIcon.setFitWidth(16); disconnectIcon.setFitHeight(16);
+		discoverToggle.setGraphic(disconnectIcon);
+		discoverToggle.disableProperty().bind(server.getInterruptedProperty());
 
 		Deck deck = Main.loadDeck(getClass().getResourceAsStream("resources/cards/main.xml"));
 
@@ -31,15 +35,16 @@ public class Controller {
 		dealer.addDeck(deck);
 		dealer.shuffleCards();
 
-		game = new Game();
+		client = new Client();
 
-		ArrayList<Player> players = new ArrayList<>();
-		players.add(new Player("player1"));
-		players.add(new Player("player2"));
-		players.add(new Player("player3"));
-		players.add(new Player("player4"));
-		players.add(new Player("player5"));
-		game.newGame(players);
+		game = new Game();
+		playerListView.setItems(game.players);
+		game.addPlayer(new Player("player1"));
+		game.addPlayer(new Player("player2"));
+		game.addPlayer(new Player("player3"));
+		game.addPlayer(new Player("player4"));
+		game.addPlayer(new Player("player5"));
+		game.newGame();
 
 		BlackCardData card;
 		card = dealer.drawBlackCard();
@@ -49,13 +54,26 @@ public class Controller {
 		}
 	}
 
+	public void clientDiscover(){
+		client.discoverServer();
+	}
+
     public void toggleDiscover(ActionEvent actionEvent) {
-		if(Server.isDiscovering()){
-			Server.stopDiscovery();
-			discoverToggle.setText("Start Discovery");
+		if(server.isListening()){
+			//Server.stopDiscovery();
+			server.stopListening();
+			//discoverToggle.setText("Start Discovery");
+			discoverToggle.setGraphic(disconnectIcon);
 		} else {
-			Server.startDiscovery(8888);
-			discoverToggle.setText("Stop Discovery");
+			//Server.startDiscovery(8888);
+			server.startListening();
+			//discoverToggle.setText("Stop Discovery");
+			discoverToggle.setGraphic(connectIcon);
 		}
     }
+
+	public void stop() {
+		server.stopListening();
+		client.stopListening();
+	}
 }
